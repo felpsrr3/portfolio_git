@@ -1,7 +1,9 @@
+import React from 'react';
+
 function About(){
     return (<div>
-        <h1>About</h1>
-        <a href='/'>Home</a>
+        <div className="title"><h1>About</h1></div>
+        <div className="menu"><a href='/'>Home</a></div>
     </div>)      
 }
 

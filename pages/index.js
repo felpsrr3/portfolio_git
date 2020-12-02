@@ -1,11 +1,14 @@
+import React from 'react';
+
 function Home(){
     return (<div>
-        <h1 ><strong>Felipe Ricobello</strong></h1>
-        <h2>3D Character Artist</h2>
-
-        <div><a href='/portfolio'>Portfolio</a></div>
-        <div><a href='/sketches'>Sketches</a></div>
-        <div><a href='/about'>About</a></div>
+        <div className="title">
+            <h1 >Felipe Ricobello</h1>
+            <h2>3D Character Artist</h2>
+        </div>
+        <div className="menu"><a href='/portfolio'>Portfolio</a></div>
+        <div className="menu"><a href='/sketches'>Sketches</a></div>
+        <div className="menu"><a href='/about'>About</a></div>
     </div>)      
 }
 

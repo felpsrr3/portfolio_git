@@ -1,15 +1,17 @@
 import React from 'react';
 
 function Home(){
-    return (<div>
-        <div className="title">
-            <h1 >Felipe Ricobello</h1>
-            <h2>3D Character Artist</h2>
+    return (
+    <body>
+        <div className="menu-bar">
+            <ul>
+                <li><a href='/about'>About</a></li>
+                <li><a href='/portfolio'>Portfolio</a></li>
+                <li><a href='/sketches'>Sketches</a></li>
+            </ul>
         </div>
-        <div className="menu"><a href='/portfolio'>Portfolio</a></div>
-        <div className="menu"><a href='/sketches'>Sketches</a></div>
-        <div className="menu"><a href='/about'>About</a></div>
-    </div>)      
+    </body> 
+    )
 }
 
 export default Home

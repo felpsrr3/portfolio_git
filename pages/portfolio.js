@@ -1,8 +1,14 @@
 export default function Portfolio(){
-    return (<div>
-        <div className="title"><h1>Portfolio</h1></div>
-        <div className="menu"><a href='/'>Home</a></div>
-        <div className="menu"><a href='/sketches'>Sketches</a></div>
-        <div className="menu"><a href='/about'>About</a></div>
-    </div>)
+    return (
+        <body>       
+        <div className="menu-bar">
+            <ul>
+                <li><a href='/'>Home</a></li>
+                <li><a href='/about'>About</a></li>
+                <li><a href='/sketches'>Sketches</a></li>
+            </ul>
+        </div>
+        <div className="title">Portfolio</div>
+    </body> 
+    )
 }

@@ -1,0 +1,46 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #cccccc;
+    background-size:cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.title{
+    font: Helvetica, Arial, sans-serif;
+    font-size: 33px;
+    color: white;
+    font-style: italic;
+    text-align:center;
+    background: rgb(95, 95, 95);
+    padding: 20px;
+}
+
+.menu-bar{
+    background: rgb(110, 110, 110);
+    text-align: center;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.menu-bar li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.menu-bar li a{
+    text-decoration: none;
+    color: white;
+}

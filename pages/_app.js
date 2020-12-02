@@ -1,5 +1,5 @@
 import App from 'next/app';
 
-import '../styles/global.css';
+import '../styles/menustyle.css';
 
 export default App;

@@ -1,10 +1,18 @@
 import React from 'react';
 
 function About(){
-    return (<div>
-        <div className="title"><h1>About</h1></div>
-        <div className="menu"><a href='/'>Home</a></div>
-    </div>)      
+    return (
+    <body>
+        <div className="menu-bar">
+            <ul>
+                <li><a href='/'>Home</a></li>
+                <li><a href='/portfolio'>Portfolio</a></li>
+                <li><a href='/sketches'>Sketches</a></li>
+            </ul>
+        </div>
+        <div className="title">About</div>
+    </body>
+    )
 }
 
 export default About

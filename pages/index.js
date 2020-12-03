@@ -1,16 +1,18 @@
 import React from 'react';
+import Image from 'next/image'
 
 function Home(){
-    return (
-    <body>
+    return (    
         <div className="menu-bar">
             <ul>
-                <li><a href='/about'>About</a></li>
-                <li><a href='/portfolio'>Portfolio</a></li>
-                <li><a href='/sketches'>Sketches</a></li>
+                <li><img src='/img_1.jpg'/></li>
+                <li><a href='/'>PORTFOLIO</a></li>
+                <li><a href='/sketches'>SKETCHES</a></li>
+                <li><a href='/sketches'>ARTSTATION</a></li>
+                <li><a href='/about'>ABOUT</a></li>
+                <li><a href='/sketches'>CONTACT</a></li>
             </ul>
-        </div>
-    </body> 
+        </div>   
     )
 }
 

@@ -3,11 +3,10 @@ export default function Sketches(){
     <body>
         <div className="menu-bar">
             <ul>
-                <li><a href='/'>Home</a></li>
-                <li><a href='/about'>About</a></li>
-                <li><a href='/portfolio'>Portfolio</a></li>
+                <li><a href='/'>PORTFOLIO</a></li>
+                <li><a href='/sketches'>SKETCHES</a></li>
+                <li><a href='/about'>ABOUT</a></li>
             </ul>
         </div>
-        <div className="title">Sketches</div>
     </body> )
 }

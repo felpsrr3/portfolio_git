@@ -12,36 +12,36 @@ body{
     font-family: sans-serif;
 }
 
-.title{
-    font: Helvetica, Arial, sans-serif;
-    font-size: 33px;
-    color: white;
-    font-style: italic;
-    text-align:center;
-    background: rgb(95, 95, 95);
-    padding: 20px;
-}
-
 .menu-bar{
-    background: rgb(110, 110, 110);
+    background: rgb(22, 22, 22);
     background-position: center;
     text-align: center;
 }
 
 .menu-bar ul{
-    display: inline-flex;
+    display: -webkit-inline-flex;
     list-style: none;
-    color: white;
+    color: rgb(175, 175, 175);
 }
 
-.menu-bar li{
-    width: 120px;
-    margin: 15px;
-    padding: 15px;
+.menu-bar ul li{
+    margin: 50px;
+    margin-left: 60px;
 
 }
 
-.menu-bar li a{
+.menu-bar ul li a{
     text-decoration: none;
-    color: white;
+    color: rgb(207, 207, 207);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.image{
+    background: rgb(100, 100, 100);
+    background-position: center;
+    text-align: center;
+}
+.menu-bar ul li a:hover{
+    color: rgb(195, 170, 230);
 }

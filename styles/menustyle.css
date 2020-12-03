@@ -45,3 +45,15 @@ body{
 .menu-bar ul li a:hover{
     color: rgb(195, 170, 230);
 }
+
+.logo{
+    top: 74px;
+    left: 138px;
+    width: 524px;
+    height: 60px;
+    text-align: left;
+    font: normal normal bold 60px/72px Anonymous Pro;
+    letter-spacing: 0px;
+    color: #DBDBDB;
+    opacity: 1;
+}

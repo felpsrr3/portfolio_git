@@ -19,7 +19,9 @@
   "homepage": "https://github.com/felpsrr3/portfolio_git#readme",
   "dependencies": {
     "next": "^10.0.3",
+    "next-images": "^1.6.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-slideshow-image": "^3.4.2"
   }
 }
